@@ -31,8 +31,9 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      vue: 'vue/dist/vue.js', // Use the full build of Vue.js
+      'vue': '@vue/runtime-dom'
     },
+    extensions: [ '.tsx', '.ts', '.js', '.vue' ],
   },
   devServer: {
     static: {

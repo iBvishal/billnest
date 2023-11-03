@@ -1,5 +1,5 @@
 <script>
-import envUtil from './lib/env-util';
+import envUtil from '../lib/env-util';
 
 export default {
     components: {},
